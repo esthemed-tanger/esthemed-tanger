@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esthemed Tanger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Esthemed Tanger</h1>
+        <p>11 Boulevard Mohamed V, Tanger</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#qui-sommes-nous">Qui sommes-nous ?</a></li>
+            <li><a href="#prendre-rdv">Prendre Rdv</a></li>
+            <li><a href="#consultation-en-ligne">Consultation en ligne</a></li>
+        </ul>
+    </nav>
+
+    <section id="accueil">
+        <h2>Accueil</h2>
+        <p>Bienvenue à Esthemed Tanger ! Nous offrons une gamme complète de prestations pour votre bien-être et beauté, y compris des injections et des traitements au laser.</p>
+        <div class="services">
+            <h3>Nos Prestations</h3>
+            <ul>
+                <li>Traitements au laser</li>
+                <li>Injections de botox</li>
+                <li>Traitements de comblement</li>
+                <li>Soins de la peau</li>
+                <li>Programmes d'amincissement</li>
+            </ul>
+        </div>
+        <div class="photos">
+            <h3>Photos</h3>
+            <!-- Section photo, à compléter -->
+        </div>
+    </section>
+
+    <section id="qui-sommes-nous">
+        <h2>Qui sommes-nous ?</h2>
+        <p>Esthemed Tanger est un centre d'esthétique médical et d'amincissement situé à Tanger. Nous utilisons des technologies de pointe pour offrir des traitements de qualité à nos patients. Nos machines incluent :</p>
+        <ul>
+            <li>Laser de dernière génération pour épilation et rajeunissement</li>
+            <li>Appareils de cryolipolyse pour la réduction des graisses</li>
+            <li>Machines de radiofréquence pour le raffermissement de la peau</li>
+            <li>Équipements de microdermabrasion pour le soin de la peau</li>
+        </ul>
+        <p>Notre équipe de professionnels qualifiés est dédiée à vous fournir les meilleurs soins pour atteindre vos objectifs de beauté et de bien-être.</p>
+    </section>
+
+    <section id="prendre-rdv">
+        <h2>Prendre Rdv</h2>
+        <form>
+            <!-- Formulaire de contact, à compléter -->
+        </form>
+    </section>
+
+    <section id="consultation-en-ligne">
+        <h2>Consultation en ligne</h2>
+        <div class="chat">
+            <p>Bienvenue dans notre chat de consultation en ligne. Posez vos questions et obtenez des réponses de nos spécialistes.</p>
+            <div id="chat-box">
+                <!-- Messages de chat -->
+            </div>
+            <input type="text" id="chat-input" placeholder="Écrivez votre message ici...">
+            <button id="send-btn">Envoyer</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Esthemed Tanger. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
